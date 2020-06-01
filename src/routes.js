@@ -8,8 +8,9 @@ export default function Routes() {
     return(
         <BrowserRouter>
             <Switch>
-                <Route path='/' exact component={Home} />
-                <Route path='/pokemons' component={Pokemons} />
+                {/* <Route path='/' exact component={Home} />
+                <Route path='/pokemons' component={Pokemons} /> */}
+                <Route path='/' exact component={Pokemons} />
             </Switch>
         </BrowserRouter>
     )
