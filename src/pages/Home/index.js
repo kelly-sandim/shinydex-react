@@ -35,11 +35,11 @@ function App() {
   return (
     <>
       <Link to="/pokemons">
-        <Button color="primary">Pesquisar</Button>
+        <Button color="primary">Shinydex - Johto</Button>
       </Link>
 
       <Container fluid="lg" >
-        <h1>ShinyDex</h1>
+        <h1>ShinyDex - Kanto</h1>
         <Row md="12">
             
             {
