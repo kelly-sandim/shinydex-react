@@ -34,11 +34,24 @@ function App() {
   
   return (
     <>
-      <Link to="/pokemons">
-        <Button color="primary">Shinydex - Johto</Button>
-      </Link>
-
       <Container fluid="lg" >
+        <Row>
+          <Link to="/pokemons">
+            <Button color="primary">Shinydex - Johto</Button>
+          </Link>
+          <Link to="/pokemons">
+            <Button color="warning">Shinydex - Hoenn</Button>
+          </Link>
+          <Link to="/pokemons">
+            <Button color="danger">Shinydex - Sinnoh</Button>
+          </Link>
+          <Link to="/pokemons">
+            <Button color="success">Shinydex - Unova</Button>
+          </Link>
+          <Link to="/pokemons">
+            <Button color="secondary">Shinydex - Kalos</Button>
+          </Link>
+        </Row>
         <h1>ShinyDex - Kanto</h1>
         <Row md="12">
             
