@@ -15,7 +15,7 @@ export default function Johto() {
     async function getPokemon() {
         let pokemons = [];
 
-        for (let i = 252; i <= 386; i++) {
+        for (let i = 387; i <= 493; i++) {
             pokemons.push({url: `https://pokeapi.co/api/v2/pokemon/${i}/`});
         }
         
@@ -45,8 +45,8 @@ export default function Johto() {
             <Link to="/johto">
                 <Button color="warning">Shinydex - Johto</Button>
             </Link>
-            <Link to="/sinnoh">
-                <Button color="danger">Shinydex - Sinnoh</Button>
+            <Link to="/hoenn">
+                <Button color="danger">Shinydex - Hoenn</Button>
             </Link>
             <Link to="/pokemons">
                 <Button color="success">Shinydex - Unova</Button>
@@ -55,7 +55,7 @@ export default function Johto() {
                 <Button color="secondary">Shinydex - Kalos</Button>
             </Link>
             </Row>
-            <h1>ShinyDex - Hoenn</h1>
+            <h1>ShinyDex - Sinnoh</h1>
             <Row md="12">
                 
                 {

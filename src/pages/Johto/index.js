@@ -45,7 +45,7 @@ export default function Johto() {
             <Link to="/hoenn">
                 <Button color="warning">Shinydex - Hoenn</Button>
             </Link>
-            <Link to="/pokemons">
+            <Link to="/sinnoh">
                 <Button color="danger">Shinydex - Sinnoh</Button>
             </Link>
             <Link to="/pokemons">
