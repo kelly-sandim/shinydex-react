@@ -2,7 +2,8 @@ import React from 'react';
 import { Switch, Route, BrowserRouter } from 'react-router-dom';
 
 import Home from './pages/Home';
-import Johto from './pages/Johto'
+import Johto from './pages/Johto';
+import Hoenn from './pages/Hoenn';
 
 export default function Routes() {
     return(
@@ -10,7 +11,7 @@ export default function Routes() {
             <Switch>
                 <Route path='/' exact component={Home} />
                 <Route path='/johto' component={Johto} />
-                {/* <Route path='/' exact component={Pokemons} /> */}
+                <Route path='/hoenn' component={Hoenn} />
             </Switch>
         </BrowserRouter>
     )

@@ -39,7 +39,7 @@ function App() {
           <Link to="/johto">
             <Button color="primary">Shinydex - Johto</Button>
           </Link>
-          <Link to="/pokemons">
+          <Link to="/hoenn">
             <Button color="warning">Shinydex - Hoenn</Button>
           </Link>
           <Link to="/pokemons">
