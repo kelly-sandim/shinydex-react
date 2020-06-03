@@ -9,7 +9,7 @@ import { Button } from 'reactstrap';
 
 import axios from 'axios';
 
-export default function Johto() {
+export default function Hoenn() {
     const [ pokemon, setPokemon ] = useState([]);
 
     async function getPokemon() {
@@ -48,7 +48,7 @@ export default function Johto() {
             <Link to="/sinnoh">
                 <Button color="danger">Shinydex - Sinnoh</Button>
             </Link>
-            <Link to="/pokemons">
+            <Link to="/unova">
                 <Button color="success">Shinydex - Unova</Button>
             </Link>
             <Link to="/pokemons">
