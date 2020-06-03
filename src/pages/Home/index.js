@@ -36,7 +36,7 @@ function App() {
     <>
       <Container fluid="lg" >
         <Row>
-          <Link to="/pokemons">
+          <Link to="/johto">
             <Button color="primary">Shinydex - Johto</Button>
           </Link>
           <Link to="/pokemons">
