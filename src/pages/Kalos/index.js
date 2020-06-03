@@ -9,13 +9,13 @@ import { Button } from 'reactstrap';
 
 import axios from 'axios';
 
-export default function Hoenn() {
+export default function Kalos() {
     const [ pokemon, setPokemon ] = useState([]);
 
     async function getPokemon() {
         let pokemons = [];
 
-        for (let i = 252; i <= 386; i++) {
+        for (let i = 650; i <= 721; i++) {
             pokemons.push({url: `https://pokeapi.co/api/v2/pokemon/${i}/`});
         }
         
@@ -45,17 +45,17 @@ export default function Hoenn() {
             <Link to="/johto">
                 <Button color="warning">Shinydex - Johto</Button>
             </Link>
+            <Link to="/hoenn">
+                <Button color="danger">Shinydex - Hoenn</Button>
+            </Link>
             <Link to="/sinnoh">
-                <Button color="danger">Shinydex - Sinnoh</Button>
+                <Button color="success">Shinydex - Sinnoh</Button>
             </Link>
             <Link to="/unova">
-                <Button color="success">Shinydex - Unova</Button>
-            </Link>
-            <Link to="/kalos">
-                <Button color="secondary">Shinydex - Kalos</Button>
+                <Button color="secondary">Shinydex - Unova</Button>
             </Link>
             </Row>
-            <h1>ShinyDex - Hoenn</h1>
+            <h1>ShinyDex - Kalos</h1>
             <Row md="12">
                 
                 {

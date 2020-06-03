@@ -6,6 +6,7 @@ import Johto from './pages/Johto';
 import Hoenn from './pages/Hoenn';
 import Sinnoh from './pages/Sinnoh';
 import Unova from './pages/Unova';
+import Kalos from './pages/Kalos';
 
 export default function Routes() {
     return(
@@ -16,6 +17,7 @@ export default function Routes() {
                 <Route path='/hoenn' component={Hoenn} />
                 <Route path='/sinnoh' component={Sinnoh} />
                 <Route path='/unova' component={Unova} />
+                <Route path='/kalos' component={Kalos} />
             </Switch>
         </BrowserRouter>
     )

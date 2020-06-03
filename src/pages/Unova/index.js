@@ -51,7 +51,7 @@ export default function Unova() {
             <Link to="/sinnoh">
                 <Button color="success">Shinydex - Sinnoh</Button>
             </Link>
-            <Link to="/pokemons">
+            <Link to="/kalos">
                 <Button color="secondary">Shinydex - Kalos</Button>
             </Link>
             </Row>

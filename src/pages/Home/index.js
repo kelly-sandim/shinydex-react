@@ -48,7 +48,7 @@ function App() {
           <Link to="/unova">
             <Button color="success">Shinydex - Unova</Button>
           </Link>
-          <Link to="/pokemons">
+          <Link to="/kalos">
             <Button color="secondary">Shinydex - Kalos</Button>
           </Link>
         </Row>
